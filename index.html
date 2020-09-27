@@ -2,14 +2,152 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Roadster</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="We sent a car to space to one day make humanity an multiplanetary species.">
+    <!--Font awesome Kit-->
+    <script src="https://kit.fontawesome.com/c5ab4f13eb.js" crossorigin="anonymous"></script>
+    <!--CSS styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Roadster | Home</title>
 </head>
 
 <body>
+    <!-- Hamburger and menu-->
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/spacex.svg" alt="SpaceX logo">
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-link active">
+                    <a href="index.html"><i class="fas fa-home-alt"></i> Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="rockets.html"><i class="fas fa-rocket-launch"></i> Rockets</a>
+                </li>
+                <li class="nav-link">
+                    <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-link">
+                    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
 
+        </nav>
+        <!--Main part of the page-->
+        <main>
+            <!--Hero section with graphics and text-->
+            <section id="s1">
+                <div class="page-container">
+                    <div class="graphics">
+                        <img src="assets/bg/graphics1.png" alt="" class="graphics1">
+                    </div>
+                    <div class="hero">
+                        <h1 class="hero-text">
+                            We sent a car to <span class="bold">space</span>
+                        </h1>
+                        <div class="cta-btn">
+                            <a href="#s2">Why?</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Second section of home page-->
+            <section id="s2">
+                <div class="page-container-even">
+                    <div class="hero2">
+                        <h2 class="sub-heading">The short answer?</h2>
+                        <p class="paragraph">We want to go to <span class="bold">Mars</span>!</p>
+                    </div>
+                    <div class="graphics">
+                        <img src="assets/bg/graphics2.png" alt="" class="graphics2">
+                    </div>
+
+                </div>
+            </section>
+            <!--Third section of the page-->
+            <section id="s3">
+                <div class="page-container">
+                    <h2 class="sub-heading">
+                        The long answer?
+                    </h2>
+                    <p class="paragraph">We needed a payload to test our most powerful rocket yet — the <span
+                            class="bold">Falcon
+                            Heavy</span>.</p>
+                    <p class="paragraph">The maiden-launch of Falcon Heavy happened on February 6, 2018.
+                    </p>
+                    <p class="paragraph">The launch was a success — and we landed two out of three boosters back on
+                        Earth.</p>
+                    <div class="graphics">
+                        <img src="assets/bg/graphics3.png" alt="" class="graphics3">
+                    </div>
+                </div>
+            </section>
+            <!--Fourth section of the page-->
+            <section id="s4">
+                <div class="page-container-even">
+                    <h2 class="sub-heading">The Tesla Roadster right now:</h2>
+                    <p class="paragraph">Right now the Tesla Roadster is traveling at a speed of <span
+                            class="velocity"></span> km/h, which makes
+                        it the fastest
+                        car in our entire history.</p>
+                    <p class="paragraph">Currently, the Roadster is <span class="distance"></span> km from earth, and
+                        <span class="distance-mars"></span> km from Mars.
+                    </p>
+                    <p class="paragraph">It usually takes around 6-8 months to reach Mars.
+                    </p>
+                    <div class="graphics">
+                        <img src="assets/bg/graphics4.png" alt="" class="graphics4">
+                    </div>
+                </div>
+            </section>
+            <!--Fifth section of the page-->
+            <section id="s5">
+                <div class="page-container">
+                    <h2 class="sub-heading">The next step?</h2>
+                    <p class="paragraph">Our next step to get humanity to Mars is to build the Starship and Big Falcon
+                        Rocket (BFR for
+                        short)!</p>
+                    <div class="cta-btn"><a href="rockets.html">Our rockets</a></div>
+                    <div class="graphics">
+                        <img src="assets/bg/graphics5.png" alt="" class="graphics5">
+                    </div>
+                    <div class="cta-btn"><a href="rockets.html">Our rockets</a></div>
+
+                </div>
+            </section>
+
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class="footer-container">
+                <i class="far fa-chevron-up"></i>
+                <a href="#top">Back to top!</a>
+                <div class="btn">Contact us</div>
+                <ul class="so-med">
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
+                <p class="copyright">
+                    SpaceX Roadster &copy; 2020
+                </p>
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/utils.js"></script>
 </body>
 
 </html>
