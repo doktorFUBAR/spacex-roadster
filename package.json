@@ -1,0 +1,22 @@
+{
+  "name": "spacex-roadster",
+  "version": "1.0.0",
+  "description": "## A microsite using the SpaceX API (Project Exam 1) This is my project exam for the first year of studying front-end development at Noroff. I was tasked with making a microsite for SpaceX or Nasa, focused on space technology.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doktorFUBAR/spacex-roadster.git"
+  },
+  "author": "Per Kristian W. Engebretsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doktorFUBAR/spacex-roadster/issues"
+  },
+  "homepage": "https://github.com/doktorFUBAR/spacex-roadster#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

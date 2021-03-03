@@ -1,22 +1,5 @@
-/* Font imports */
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Montserrat:wght@400;700&display=swap");
-/* Resets */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  -webkit-appearance: none;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-  font-size: 22px;
-}
+@import "base/base.scss";
+@import "base/typography.scss";
 
 .page-container {
   max-width: 100%;
