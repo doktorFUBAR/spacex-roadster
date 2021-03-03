@@ -1,0 +1,39 @@
+.graphics {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.graphics1 {
+  position: absolute;
+  top: 5%;
+  right: -70%;
+}
+
+.graphics2 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  animation: attention 3s ease infinite alternate;
+}
+
+.graphics3 {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.graphics4 {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  animation: rotation 180s ease infinite;
+}
+
+.graphics5 {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}

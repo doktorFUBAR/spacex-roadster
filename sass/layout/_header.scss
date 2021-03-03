@@ -1,0 +1,98 @@
+.header {
+  &__logo img {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    z-index: 2;
+  }
+
+  &__hamburger {
+    width: 3.5rem;
+    height: 3rem;
+    position: fixed;
+    top: 4rem;
+    right: 4rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 9999;
+  }
+  &__navigation {
+    width: 100%;
+    height: 100%;
+    left: 200rem;
+    background: #371a4c;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: all 0.7s cubic-bezier(1, 0, 0, 1);
+
+    i {
+      margin-right: 2rem;
+    }
+  }
+  .animate .navigation {
+    right: 0;
+  }
+}
+
+// Lines for the hamburger menu (and animation)
+.line {
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+
+  &--2 {
+    width: 80%;
+    height: 3px;
+  }
+}
+
+.animate {
+  //Rotate the lines in the hamburger
+  .line {
+    &--1 {
+      transform: rotateZ(-45deg) translate(-8px, 6px);
+    }
+
+    &--2 {
+      opacity: 0;
+    }
+
+    &--3 {
+      transform: rotateZ(45deg) translate(-8px, -6px);
+    }
+  }
+}
+
+.nav {
+  list-style: none;
+
+  &__item {
+    margin: 20px;
+
+    a,
+    a:visited {
+      text-decoration: none;
+      color: #fff;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      opacity: 0.7;
+      transition: all 0.3s ease;
+    }
+
+    &--active {
+      border-bottom: 2px solid #fff;
+    }
+  }
+}

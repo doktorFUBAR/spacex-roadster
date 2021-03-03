@@ -20,35 +20,41 @@
 
   <body>
     <!-- Hamburger and menu-->
-    <div class="container">
-      <div class="logo">
-        <a href="index.html">
-          <img src="assets/spacex.svg" alt="SpaceX logo" />
-        </a>
-      </div>
-      <div class="hamburger">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-      </div>
-      <nav class="navigation">
-        <ul class="nav-list">
-          <li class="nav-link active">
-            <a href="index.html"><i class="fas fa-home-alt"></i> Home</a>
-          </li>
-          <li class="nav-link">
-            <a href="rockets.html"
-              ><i class="fas fa-rocket-launch"></i> Rockets</a
-            >
-          </li>
-          <li class="nav-link">
-            <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
-          </li>
-          <li class="nav-link">
-            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="header">
+        
+            <a class="header__logo" href="index.html">
+              <img src="assets/spacex.svg" alt="SpaceX logo" />
+            </a>
+         
+
+          <div class="header__hamburger">
+            <div class="line line--1"></div>
+            <div class="line line--2"></div>
+            <div class="line line--3"></div>
+          </div>
+          
+          <nav class="header__navigation">
+            <ul class="nav">
+              <li class="nav__item nav__item--active">
+                <a href="index.html"><i class="fas fa-home-alt"></i> Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="rockets.html"
+                  ><i class="fas fa-rocket-launch"></i> Rockets</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+              </li>
+              <li class="nav__item">
+                <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    
+
+
       <!--Main part of the page-->
       <main>
         <!--Hero section with graphics and text-->
@@ -62,7 +68,7 @@
               />
             </div>
             <div class="hero">
-              <h1 class="hero-text">
+              <h1 class="hero__heading">
                 We sent a car to <span class="bold">space</span>
               </h1>
               <div class="cta-btn">

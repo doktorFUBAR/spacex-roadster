@@ -1,0 +1,33 @@
+.cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  border: 2px solid $color-primary;
+  border-radius: 3px;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  text-align: center;
+  animation: attention 1s ease infinite alternate;
+  transition: all 0.3s;
+  z-index: 2;
+  background-color: rgba($color-primary, 0.1);
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+
+    &:visited {
+      color: $color-primary;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-5px) scale(1.05);
+    animation: none;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.35);
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.35);
+    transform: translateY(0);
+  }
+}
